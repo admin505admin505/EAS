@@ -2,3 +2,14 @@ html{
   height:100%;
   width:100%;
 }
+
+
+/* Styles for the emergency alert system */
+
+.alert {
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffcccc;
+  margin: 20px;
+}
