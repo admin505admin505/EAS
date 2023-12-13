@@ -1,22 +1,2 @@
-/* Styles for the sliding text effect */
-.container {
-  width: 100%;
-  overflow: hidden;
-}
-.sliding-text {
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-}
-h2 {
-  position: absolute;
-  animation: slide 5s linear infinite;
-}
-@keyframes slide {
-  0% {
-    left: 100%;
-  }
-  100% {
-    left: -100%;
-  }
-}
+
+
