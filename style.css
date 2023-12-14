@@ -5,6 +5,8 @@ body{
 h1{
      text-align:center;
      color:red;
+     font-size:500%;
+     text-font:bold;
 }
 
 p{
