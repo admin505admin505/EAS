@@ -21,6 +21,27 @@ header{
      font-size:100%;
 }
 
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+.waitingForConnection {
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+  -webkit-animation-duration: 1.7s;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 *{ margin: 0; padding: 0;}
 body{ background-color: black; font-family: sans-serif; width: 80%; margin: 0 auto;}
@@ -37,10 +58,4 @@ body{ background-color: black; font-family: sans-serif; width: 80%; margin: 0 au
 .container span{ position: bottom; display: inline-block; flex-shrink: 0; padding: 8px 20px; background-color: rgb(0, 0, 0); color: #000000; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
 .scroll-right span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
 
-h1{
-  background:black;
-  color:red;
-  text-shadow:1px 1px 10px red, 1px 1px 10px #ccc;
-  font-size:48px;
-  text-align:center;
-}
+
