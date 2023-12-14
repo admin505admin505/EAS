@@ -12,10 +12,11 @@
   <div class="container scroll-left">
    <marquee style="background-color:black; color:red; font-size:400%;" behavior="bottom" direction="left">PLEASE STAND BY FOR IMPORTANT INFORMATION ISSUED BY CDC</marquee>
 </div>
+  
   <h1>CIVIL AUTHORITY MESSAGE</h1>
+  <h2>ALERT</h2>
 <header style="font-size:90%;">THIS IS THIS IS ISSUED BY THE CDC.   A UNKNOWN VIRUS IS RELEASED PLEASE REMAIN INSIDE DO NOT LOOK OR TALK TO ANYBODY OR OPEN THE DOOR AND WAIT FOR FURTHER INSTRUCTION</header>
   <p style="font-size:20px;">ISSUED ON 12/14/23</p>
-  <h2>ALERT</h2>
   <script src="scriptjs"></script>
 
    <audio controls autoplay hidden>
@@ -24,7 +25,7 @@
   <script>
     var msg = new SpeechSynthesisUtterance(document.getElementById('timer').textContent);
     window.speechSynthesis.speak(msg);
-    var delayInMilliseconds = 21000;
+    var delayInMilliseconds = 9000;
     setTimeout(function() {
       var msg = new SpeechSynthesisUtterance('');
       window.speechSynthesis.speak(msg);
