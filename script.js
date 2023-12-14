@@ -14,7 +14,7 @@ document.head.append(style);
 var msg = new SpeechSynthesisUtterance('THIS IS THIS IS ISSUED BY THE CDC A UNKNOWN VIRUS IS RELEASED PLEASE REMAIN INSIDE DO NOT LOOK OR TALK TO ANYBODY OR OPEN THE DOOR AND WAIT FOR FURTHER INSTRUCTION.');
 window.speechSynthesis.speak(msg);
 
-var delayInMilliseconds = 21000;
+var delayInMilliseconds = 21;
 
 setTimeout(function() {
   var msg = new SpeechSynthesisUtterance('THIS IS THIS IS ISSUED BY THE CDC A UNKNOWN VIRUS IS RELEASED PLEASE REMAIN INSIDE DO NOT LOOK OR TALK TO ANYBODY OR OPEN THE DOOR AND WAIT FOR FURTHER INSTRUCTION');
