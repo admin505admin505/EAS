@@ -1,22 +1,14 @@
-.group{
-  position: relative;
-  height: 30px;
-  overflow: hidden;
-  color: red;
-  background-color: black;
-  boarder-bottom: 2px solid black;
-  boarder-top: 2px solid black;
-}
+*{ margin: 0; padding: 0;}
+body{ background: #0084ff; font-family: sans-serif; width: 80%; margin: 0 auto;}
+.container{ display: flex; align-items: center; background: #eee; margin-top: 40px;}
+.container span{ position: relative; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: #f00;
+     color: #fff; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
+.scroll-left span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
 
-.group .text{
-  position: absolute;
-  margin: 5px 0;
-  padding: 0;
-  width: max-content;
-  animation: my-animation 24s linear ifinite;
-}
 
-body{
-  font-family:roboto;
-}
-  
+
+*{ margin: 0; padding: 0;}
+body{ background: #0084ff; font-family: sans-serif; width: 80%; margin: 0 auto;}
+.container{ display: flex; align-items: center; background: #eee; margin-top: 40px;}
+.container span{ position: relative; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: #f00; color: #fff; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
+.scroll-left span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
