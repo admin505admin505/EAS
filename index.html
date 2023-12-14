@@ -18,32 +18,6 @@
 
    <audio controls autoplay hidden>
     <source src="EAS.mp3">
-     <script>
-       </header>
-	  <p style="display: none;" id="autoText"><p>THIS IS THIS IS ISSUED BY THE CDC A UNKNOWN VIRUS IS RELEASED PLEASE REMAIN INSIDE DO NOT LOOK OR TALK TO ANYBODY OR OPEN THE DOOR AND WAIT FOR FURTHER INSTRUCTION</p>
-
-    <script>
-        const autoText = document.getElementById("autoText");
-
-        // Check if the browser supports the Web Speech API
-        if ('speechSynthesis' in window) {
-            const synth = window.speechSynthesis;
-            const text = autoText.textContent;
-
-            const utterance = new SpeechSynthesisUtterance(text);
-
-            // You can customize the voice and other properties here
-            // Example:
-            // utterance.voice = synth.getVoices()[0]; // Select a specific voice
-
-            // Delay the speech by 2 seconds (2000 milliseconds)
-            setTimeout((21s) => {
-                synth.speak(utterance);
-            }, 2000);
-        } else {
-            alert("Text-to-speech is not supported in this browser.");
-        }
-    </script>
      
 </body>
 </html>
