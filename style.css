@@ -12,6 +12,6 @@ body{ background: black; font-family: sans-serif; width: 80%; margin: 0 auto;}
 
 *{ margin: 0; padding: 0;}
 body{ background: #000000; font-family: sans-serif; width: 80%; margin: 0 auto;}
-.container{ display: flex; align-items: center; background: #000000; margin-bottom: 40px;}
+.container{ display: flex; align-items: bottom; background: #000000; margin-bottom: 40px;}
 .container span{ position: bottom; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: rgb(0, 0, 0); color: #000000; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
 .scroll-right span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
