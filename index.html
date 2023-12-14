@@ -23,7 +23,7 @@
 <script>
     var msg = new SpeechSynthesisUtterance(document.getElementById('timer').textContent);
     window.speechSynthesis.speak(msg);
-    var delayInMilliseconds = 9000;
+    var delayInMilliseconds = 5000;
     setTimeout(function() {
       var msg = new SpeechSynthesisUtterance('PLEASE WAIT FOR MORE MORE INFORMATION');
       window.speechSynthesis.speak(msg);
