@@ -1,3 +1,10 @@
-// JavaScript for controlling the emergency alert system
-// You can add functionality for displaying and clearing alerts here
+var style = document.creatElement('style');
+var position = 'right';
 
+style.innerHTML = '
+@keyframes my-animation{
+    0%{ ${position}:-${document.querySelector(".text").offsetWidth + 10}px'}
+    100%{${position}: 100%}
+}';
+
+document.head.append(style);
