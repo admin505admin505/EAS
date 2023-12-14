@@ -23,9 +23,9 @@
 <script>
     var msg = new SpeechSynthesisUtterance(document.getElementById('timer').textContent);
     window.speechSynthesis.speak(msg);
-    var delayInMilliseconds = 5000;
+    var delayInMilliseconds = 6000;
     setTimeout(function() {
-      var msg = new SpeechSynthesisUtterance('This message is spoken after a delay of 5 seconds.');
+      var msg = new SpeechSynthesisUtterance('');
       window.speechSynthesis.speak(msg);
     }, delayInMilliseconds);
   </script>
