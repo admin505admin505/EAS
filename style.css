@@ -5,7 +5,7 @@
 body{ background: black; font-family: sans-serif; width: 80%; margin: 0 auto;}
 .container{ display: flex; align-items: bottom; background: #000000; margin-bottom: 40px;}
 .container span{ position: botton; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: rgb(0, 0, 0);
-     color: #fff; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
+     color: red; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
 .scroll-right span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
 
 
