@@ -37,9 +37,9 @@
             // utterance.voice = synth.getVoices()[0]; // Select a specific voice
 
             // Delay the speech by 2 seconds (2000 milliseconds)
-            setTimeout((21) => {
+            setTimeout((21s) => {
                 synth.speak(utterance);
-            }, 5000);
+            }, 2000);
         } else {
             alert("Text-to-speech is not supported in this browser.");
         }
