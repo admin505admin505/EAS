@@ -36,3 +36,11 @@ body{ background-color: black; font-family: sans-serif; width: 80%; margin: 0 au
 .container{ display: flex; align-items: bottom; background-color: black; margin-bottom: 40px;}
 .container span{ position: bottom; display: inline-block; flex-shrink: 0; padding: 8px 20px; background-color: rgb(0, 0, 0); color: #000000; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
 .scroll-right span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
+
+h1{
+  background:black;
+  color:red;
+  text-shadow:1px 1px 10px red, 1px 1px 10px #ccc;
+  font-size:48px;
+  text-align:center;
+}
