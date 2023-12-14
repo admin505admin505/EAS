@@ -1,5 +1,5 @@
 var style = document.creatElement('style');
-var position = 'right';
+var position = 'left';
 
 style.innerHTML = '
 @keyframes my-animation{
