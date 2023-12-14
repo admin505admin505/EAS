@@ -1,2 +1,22 @@
+.group{
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  color: red;
+  background-color: black;
+  boarder-bottom: 2px solid black;
+  boarder-top: 2px solid black;
+}
 
+.group .text{
+  position: absolute;
+  margin: 5px 0;
+  padding: 0;
+  width: max-content;
+  animation: my-animation 24s linear ifinite;
+}
 
+body{
+  font-family:roboto;
+}
+  
