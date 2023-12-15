@@ -19,13 +19,13 @@
 
    <audio controls autoplay hidden>
     <source src="EAS.mp3">
-     <div style="display:none;" id="timer">THIS IS THIS IS ISSUED BY THE GOVERNMENT.</div>
+     <div style="display:none;" id="timer"></div>
 <script>
     var msg = new SpeechSynthesisUtterance(document.getElementById('timer').textContent);
     window.speechSynthesis.speak(msg);
     var delayInMilliseconds = 021;
     setTimeout(function() {
-      var msg = new SpeechSynthesisUtterance('PLEASE WAIT FOR MORE INFORMATION');
+      var msg = new SpeechSynthesisUtterance('');
       window.speechSynthesis.speak(msg);
     }, delayInMilliseconds);
   </script>
